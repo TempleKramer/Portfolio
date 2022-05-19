@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    
+}
+
+
+header h1 {
+    color: black;
+    font-size: 40px;
+}
+
+header nav {
+    margin: 7px 0;
+
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 8px 10px;
+    font-size: x-large;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 100px;
+
+}
+
+.hero {
+    background-image: url("./headerphoto.jpg") ;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.hero-form {
+    border: 3px solid black;
+    background-color: rgb(151, 176, 192);
+    padding: 20px;
+    width: 500px;
+    color: black;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid white;
+    display: block;
+    padding: 3px 8px;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 10px;
+}
+
+.hero-form button {
+    color: white;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.about-me {
+    text-align: center;
+    background-color: #0f6452;
+
+}
+
+.projects {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
